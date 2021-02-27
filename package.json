@@ -1,0 +1,12 @@
+{
+  "name": "minifrdg-blur-background",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cp index.js minifrdg-blur-background.js && aws s3 cp minifrdg-blur-background.js s3://www.rainstormweb.com/ && rm -rf minifrdg-blur-background.js"
+  },
+  "keywords": [],
+  "author": "ndxbxrme",
+  "license": "ISC"
+}
