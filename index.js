@@ -40,12 +40,12 @@
       width: opts.width || 1920,
       height: opts.height || 1080,
       size: opts.size || 300,
-      blur: '40px',
-      hueRotate: 180,
-      hueOffset: 180,
-      l:'50%',
-      s:'60%',
-      a:'50%'
+      blur: opts.blur || '40px',
+      hueRotate: opts.hueRotate || 180,
+      hueOffset: opts.hueOffset || 180,
+      l: opts.l || '50%',
+      s: opts.s || '60%',
+      a: opts.a || '50%'
     });
     app.rootComponents.push('minifrdg-blur-background');
   };
