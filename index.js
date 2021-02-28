@@ -19,6 +19,7 @@
           background-size: cover; 
           background-position: center;
           filter: blur({{blur}});
+          opacity: {{opacity}};
         }
         minifrdg-blur-background .circles svg {
           display: none;
@@ -43,6 +44,7 @@
       blur: opts.blur || '40px',
       hueRotate: opts.hueRotate || 180,
       hueOffset: opts.hueOffset || 180,
+      opacity: opts.opacity || 1,
       l: opts.l || '50%',
       s: opts.s || '60%',
       a: opts.a || '50%'
